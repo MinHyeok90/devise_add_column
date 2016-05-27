@@ -1,0 +1,6 @@
+<h1>Home#update</h1>
+<p>Find me in app/views/home/update.html.erb</p>
+로그인에 성공했다면 이곳을 볼 수 있을 것.
+<% @user.each do |u| %>
+    <p>id : <%=u.id%>, email : <%=u.email %>, name : <%=u.name %><</p><br>
+<% end %>
